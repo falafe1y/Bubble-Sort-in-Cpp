@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
-void BubbleSort(vector<int> *arr, int n);
+void BubbleSort(vector<int> *arr, int size);
+void BubbleSort(int (*arr)[], int size);
